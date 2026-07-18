@@ -1,10 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>College Football Training & Performance Guide</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>College Football Training & Performance Guide</h1>
-    <p>Welcome to my website about college football training, performance, workouts, and nutrition.</p>
+
+    <header>
+        <h1>College Football Training & Performance Guide</h1>
+
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#training">Training</a>
+            <a href="#nutrition">Nutrition</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="home">
+
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-image" role="img"
+                 aria-label="Placeholder for a college football training image">
+            </div>
+
+            <h2 id="hero-heading">Train Hard. Perform Better.</h2>
+
+            <p>
+                Helping football players improve their training, nutrition,
+                and overall performance.
+            </p>
+
+            <a class="button" href="#guide">Learn More</a>
+        </section>
+
+        <section id="guide" aria-labelledby="guide-heading">
+            <h2 id="guide-heading">Explore the Guide</h2>
+
+            <div class="guide-container">
+
+                <article id="training" class="guide-card">
+                    <h3>Training</h3>
+                    <div class="image-placeholder" role="img"
+                         aria-label="Placeholder for a football training image">
+                    </div>
+                    <p>
+                        Workouts and exercises designed to improve football
+                        performance.
+                    </p>
+                </article>
+
+                <article id="nutrition" class="guide-card">
+                    <h3>Nutrition</h3>
+                    <div class="image-placeholder" role="img"
+                         aria-label="Placeholder for a sports nutrition image">
+                    </div>
+                    <p>
+                        Nutrition information to help athletes fuel their
+                        performance.
+                    </p>
+                </article>
+
+                <article class="guide-card">
+                    <h3>Performance</h3>
+                    <div class="image-placeholder" role="img"
+                         aria-label="Placeholder for an athletic performance image">
+                    </div>
+                    <p>
+                        Tips for improving strength, speed, and overall athletic
+                        performance.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About This Website</h2>
+            <p>
+                This website provides helpful information and resources for
+                football players interested in improving their training and
+                performance.
+            </p>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <p>College Football Training & Performance Guide</p>
+
+        <nav aria-label="Footer navigation">
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#training">Training</a> |
+            <a href="#nutrition">Nutrition</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </footer>
+
 </body>
+
 </html>
