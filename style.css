@@ -232,3 +232,11 @@ button {
     height: auto;
     margin-bottom: 10px;
 }
+/* Improve navigation accessibility on mobile devices */
+@media (max-width: 768px) {
+    nav a {
+        display: inline-block;
+        min-height: 46px;
+        padding: 12px 10px;
+    }
+}
