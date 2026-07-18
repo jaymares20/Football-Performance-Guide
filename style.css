@@ -226,3 +226,9 @@ button {
         padding: 8px;
     }
 }
+/* Website logo */
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
